@@ -11,8 +11,8 @@
 
 要在MacOS或Linux上安装本机映像编译器，建议使用SDKMAN：
 *	安装SDKMAN。
-*	安装一个GraalVM本机映像发行版，GraalVM CE（grl后缀）或Bellsoft Liberica NIK（NIK后缀），下面是Liberica NIK Java 11变体：sdk安装Java 21.3.0。r11 nik
-*	确保使用新安装的JDK with sdk使用java 21.3.0。r11 nik
+*	安装一个GraalVM本机映像发行版。
+*	确保使用新安装的JDK with sdk使用java 21.3.0。
 *	运行gu install native image将本机映像扩展引入JDK。
 
 或者，如果您使用的是Microsoft Windows，则可以从GraalVM或Liberica NIK手动安装版本。如果需要，不要忘记适当地设置JAVA_HOME/PATH，并运行gu install native image以引入本机映像扩展。
