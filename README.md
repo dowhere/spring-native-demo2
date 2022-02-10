@@ -4,10 +4,6 @@
 # 1. 系统要求
 在安装GraalVM native-image编译器之前，需要一些先决条件。
 
-本机映像编译器有多种发行版，这里我们重点介绍这两种：
-	基于GraalVM开源存储库和LabsJDK的GraalVM CE
-	Bellsoft Liberica Native Image Kit（NIK）基于GraalVM开源存储库和Liberica JDK
-
 
 要在MacOS或Linux上安装本机映像编译器，建议使用SDKMAN：
 *	安装SDKMAN。
